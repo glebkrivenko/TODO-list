@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>TO DO LIST</title>
+</head>
+
+<body>
+    <form id="form">
+        <h1 class="task__header">TO DO LIST</h1>
+        <input type="text" id="task__name" placeholder="Название задачи">
+        <input type="text" id="task__description" placeholder="Описание задачи">
+        <input type="submit" id="submitBtn">
+
+    </form>
+    <div class="list">
+        <div class="my__tasks">
+            <h3>TODO</h3>
+        </div>
+        <div class="inProgress">
+            <h3>Progress</h3>
+        </div>
+        <div class="done">
+            <h3>Done</h3>
+        </div>
+        <div class="deleted">
+            <h3>Deleted</h3>
+        </div>
+    </div>
+    </div>
+
+    <div class="modal__wrapper">
+        <div class="modal__content">
+            <form class="modal__form">
+                <div class="modal__info">
+                    <label for="edit-title">Название задачи:</label>
+                    <input type='text' id='edit-title' />
+                    <br>
+                    <br>
+                    <label for="edit-description">Описание задачи:</label>
+                    <input id='edit-description' />
+                    <br>
+                    <br>
+                    <button id="okBtn" class="modal__ok-btn"><img src="image/done2.png"> </button>
+                    <button id="closeBtn"><img src="image/krestik.png"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

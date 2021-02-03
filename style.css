@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
+h3 {
+  text-align: center;
+  color: #fff;
+}
+#form {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 40px;
+  background-color: red;
+  padding: 30px;
+  border-radius: 10px;
+}
+#submitBtn {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5rem 6.3rem;
+  margin: 2rem auto 0;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.task__header {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 30px;
+}
+input[type="text"] {
+  width: 276px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.my__tasks {
+  width: 20%;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.inProgress {
+  width: 20%;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.done {
+  width: 20%;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.deleted {
+  width: 20%;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.toDo {
+  background-color: red;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.note__name {
+  font-size: 16px;
+}
+.note__description {
+  font-size: 16px;
+}
+
+#edit-title {
+  padding: 10px;
+}
+#edit-description {
+  width: 100%;
+}
+
+.modal__wrapper {
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  transition: opacity 400ms ease-in;
+  background-color: rgba(54, 52, 52, 0.5);
+}
+
+.modal__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  padding: 5px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 16px;
+}
