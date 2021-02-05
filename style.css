@@ -30,7 +30,12 @@ h3 {
   cursor: pointer;
   transition-duration: 0.3s;
 }
-
+.todo__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
 .task__header {
   text-align: center;
   margin-top: 0;
